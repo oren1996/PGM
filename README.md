@@ -2,7 +2,7 @@
 
 This repository contains a Python script that implements functions related to Markov networks and junction trees. The script includes various utility functions and experiments for estimating the partition function of a Markov network.
 
-# Function 
+# Functions
 ### getCutset(jt, threshold)
 
 This function takes a junction tree object (`jt`) and a threshold value as input. It removes variables from the junction tree such that the size of the largest bag is less than or equal to the threshold. It returns the set of variables removed and the modified junction tree.
